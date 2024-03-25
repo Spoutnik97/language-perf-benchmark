@@ -10,10 +10,12 @@
 
 Test the speed of the different languages to count to 100 000 000
 
-Python Elapsed Time: 8.292240858078003 seconds
-JavaScript Elapsed Time: 0.4416220188140869 seconds
-Rust Elapsed Time: 0.14258217811584473 seconds
-C++ Elapsed Time: 0.35025882720947266 seconds
+## Measures
+
+- Python Elapsed Time: 8.292240858078003 seconds
+- JavaScript Elapsed Time: 0.4416220188140869 seconds
+- Rust Elapsed Time: 0.14258217811584473 seconds
+- C++ Elapsed Time: 0.35025882720947266 seconds
 
 # Test 2 (complex calculation for 100 000)
 
@@ -25,17 +27,17 @@ Is the nature of the calculation change the result ?
 
 **First test**
 
-Python Elapsed Time: 9.961721181869507 seconds
-JavaScript Elapsed Time: 0.24201107025146484 seconds
-Rust Elapsed Time: 0.27815914154052734 seconds
-C++ Elapsed Time: 0.31627488136291504 seconds
+- Python Elapsed Time: 9.961721181869507 seconds
+- JavaScript Elapsed Time: 0.24201107025146484 seconds
+- Rust Elapsed Time: 0.27815914154052734 seconds
+- C++ Elapsed Time: 0.31627488136291504 seconds
 
 **Second test**
 
-Python Elapsed Time: 10.010384798049927 seconds
-JavaScript Elapsed Time: 0.24254488945007324 seconds
-Rust Elapsed Time: 0.0064618587493896484 seconds
-C++ Elapsed Time: 0.17774510383605957 seconds
+- Python Elapsed Time: 10.010384798049927 seconds
+- JavaScript Elapsed Time: 0.24254488945007324 seconds
+- Rust Elapsed Time: 0.0064618587493896484 seconds
+- C++ Elapsed Time: 0.17774510383605957 seconds
 
 ## Conclusion
 
@@ -52,24 +54,24 @@ Test the speed of the different languages to do a complex calculation for 1 000 
 
 **First test**
 
-Python Elapsed Time: 100.53298687934875 seconds
-JavaScript Elapsed Time: 1.4667677879333496 seconds
-Rust Elapsed Time: 0.2866818904876709 seconds
-C++ Elapsed Time: 1.8330438137054443 seconds
+- Python Elapsed Time: 100.53298687934875 seconds
+- JavaScript Elapsed Time: 1.4667677879333496 seconds
+- Rust Elapsed Time: 0.2866818904876709 seconds
+- C++ Elapsed Time: 1.8330438137054443 seconds
 
 **Second test**
 
-Python : not tested, too long
-JavaScript Elapsed Time: 1.495237112045288 seconds
-Rust Elapsed Time: 0.008568763732910156 seconds
-C++ Elapsed Time: 1.6940128803253174 seconds
+- Python : not tested, too long
+- JavaScript Elapsed Time: 1.495237112045288 seconds
+- Rust Elapsed Time: 0.008568763732910156 seconds
+- C++ Elapsed Time: 1.6940128803253174 seconds
 
 ## Conclusion
 
-Python is too slow for this kind of calculation
-Rust is the fastest, but the second test is quite faster than the first one
-C++ is slower than Rust
-JavaScript is quite good. It could be a good choice for most of the cases
+- Python is too slow for this kind of calculation
+- Rust is the fastest, but the second test is quite faster than the first one
+- C++ is slower than Rust
+- JavaScript is quite good. It could be a good choice for most of the cases
 
 # Test 4 (complex calculation for 1 000 000 with benchmark.js)
 
@@ -79,10 +81,10 @@ Is a js script to benchmark change the result ?
 
 ## Measures
 
-Python Elapsed Time: 100.288 seconds
-JavaScript Elapsed Time: 1.299 seconds
-Rust Elapsed Time: 0.021 seconds
-C++ Elapsed Time: 1.327 seconds
+- Python Elapsed Time: 100.288 seconds
+- JavaScript Elapsed Time: 1.299 seconds
+- Rust Elapsed Time: 0.021 seconds
+- C++ Elapsed Time: 1.327 seconds
 
 ## Conclusion
 
@@ -96,8 +98,8 @@ understand if spawning a child process for each calculation is faster than the f
 
 ## Measures
 
-Child process Elapsed Time: 1.485 seconds
-Import javascript Elapsed Time: 1.344 seconds
+- Child process Elapsed Time: 1.485 seconds
+- Import javascript Elapsed Time: 1.344 seconds
 
 ## Conclusion
 

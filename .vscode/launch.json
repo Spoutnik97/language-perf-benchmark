@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/me/development/rust/perf_benchmark",
+      "program": "/Users/me/development/rust/perf_benchmark/build/Debug/outDebug"
+    }
+  ]
+}
